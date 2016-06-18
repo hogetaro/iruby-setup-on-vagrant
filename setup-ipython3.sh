@@ -1,4 +1,6 @@
 
+bash ~/lib/setup-virtualenv.sh
+
 . .venv/p3/bin/activate
 sudo apt-get install -y python3-dev virtualenv libzmq3-dev
 sudo apt-get install -y build-essential python-dev
