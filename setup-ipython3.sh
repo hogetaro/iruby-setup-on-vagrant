@@ -1,5 +1,5 @@
 
-bash ~/lib/setup-virtualenv.sh
+bash ~/iruby-setup/setup-virtualenv.sh
 
 . ~/.venv/p3/bin/activate
 sudo apt-get install -y python3-dev virtualenv libzmq3-dev

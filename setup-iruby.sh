@@ -1,8 +1,8 @@
 
-bash ~/lib/setup-ipython3.sh
+bash ~/iruby-setup/setup-ipython3.sh
 
 if ! which anyenv; then
-  bash ~/lib/setup-anyenv.sh
+  bash ~/iruby-setup/setup-anyenv.sh
   exec $SHELL -l $0
 fi
 
