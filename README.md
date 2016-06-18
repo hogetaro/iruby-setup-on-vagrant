@@ -6,6 +6,7 @@ Builds up jupyter+iruby env. on clean ubuntu14 with Vagrant.
 I'm using this on Windows10 + vbox 5.0.20 + cygwin
 
 ## usage
+If you are not me, remove proxy server setting from Vagrantfile.
 
 ```bash
 $ vagrant up
@@ -19,5 +20,3 @@ vg $ iruby notebook --ip=*
 then open http://localhost:8888/ with your browser.
 
 All python and ruby stuff is installed in ~/.anyenv and ~/.venv.
-
-
