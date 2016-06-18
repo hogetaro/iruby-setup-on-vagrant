@@ -11,7 +11,7 @@ If you are not me, remove proxy server setting from Vagrantfile.
 ```bash
 $ vagrant up
 $ vagrant ssh
-vg $ bash lib/setup-iruby.sh
+vg $ bash iruby-setup/setup-iruby.sh
 vg $ exec $SHELL -l
 vg $ . .venv/p3/activate
 vg $ iruby notebook --ip=*
