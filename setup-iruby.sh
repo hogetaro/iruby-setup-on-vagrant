@@ -22,4 +22,7 @@ sudo apt-get install -y libtool autoconf automake
 gem install rbczmq --no-ri --no-rdoc
 gem install iruby --no-ri --no-rdoc
 gem install statsample --no-ri --no-rdoc
+gem install pry pry-doc awesome_print gnuplot rubyvis nyaplot \
+     nmatrix \
+    --no-ri --no-rdoc 
 
