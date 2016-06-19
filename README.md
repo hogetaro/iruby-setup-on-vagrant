@@ -3,7 +3,7 @@
 Builds up jupyter+iruby env. on clean ubuntu14 with Vagrant.
 
 ## pre-requisites
-I'm using this on Windows10 + vbox 5.0.20 + cygwin
+I'm using this on Windows10 + cygwin + vbox 5.0.20 + Vagrant 1.8.4
 
 ## usage
 If you are not me, remove proxy server setting from Vagrantfile.
