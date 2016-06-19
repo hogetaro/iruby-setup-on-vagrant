@@ -1,5 +1,5 @@
 
-bash ~/iruby-setup/setup-ipython3.sh
+bash ~/iruby-setup/setup-jupyter.sh
 
 if ! which anyenv; then
   bash ~/iruby-setup/setup-anyenv.sh
